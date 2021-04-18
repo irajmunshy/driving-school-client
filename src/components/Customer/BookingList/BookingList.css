@@ -1,0 +1,42 @@
+.service-list {
+    overflow-y: scroll;
+    height: 90vh;
+}
+.single-list {
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.single-list img {
+    width: 120px;
+    height: 120px;
+    border-radius: 7px;
+}
+.single-list h6 {
+    font-weight: 600;
+}
+.single-list p {
+    font-weight: normal;
+}
+.doneBtn {
+    background: #C6FFE0;
+    color: green;
+}
+.doneBtn:hover {
+    color: green;
+}
+.pendingBtn {
+    background: #FFE3E3;
+    color: red;
+}
+.pendingBtn:hover {
+    color: red;
+}
+.OnGoingBtn {
+    background: #FFD88F;
+    color: yellow;
+}
+.OnGoingBtn:hover {
+    color: yellow;
+}

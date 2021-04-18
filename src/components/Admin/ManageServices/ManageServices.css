@@ -1,0 +1,43 @@
+.manageService-area {
+    border-radius: 10px;
+}
+.manageService-area .manageHeader {
+    background: #F5F6FA;
+    border-radius: 10px;
+    padding: 20px 20px 15px;
+}
+.manageService-area .services-container {
+    height: 55vh;
+    overflow-y: scroll;
+}
+.manageService-area .manageHeader .one {
+    width: 50%;
+}
+.manageService-area .manageHeader .two {
+    width: 30%;
+}
+.manageService-area .manageHeader .three {
+    width: 20%;
+    text-align: center;
+}
+.manageService-area .manageBody .one {
+    width: 50%;
+}
+.manageService-area .manageBody .two {
+    width: 30%;
+}
+.manageService-area .manageBody .three {
+    width: 20%;
+    text-align: center;
+}
+.manageService-area .manageBody .deleteBtn {
+    background: #FF4E54;
+    width: 120px;
+    color: #fff;
+    border: 1px solid #FF4E54;
+    margin: 0 auto;
+}
+.manageService-area .manageBody .deleteBtn:hover {
+    background: none;
+    color: #FF4E54;
+}

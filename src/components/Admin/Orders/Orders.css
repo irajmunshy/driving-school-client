@@ -1,0 +1,38 @@
+.orderList {
+    background: #fff;
+    border-radius: 10px;
+    overflow-y: scroll;
+    height: 80vh;
+}
+.orderList .orderHeader {
+    background: #F5F6FA;
+    border-radius: 10px;
+}
+.orderList .orderBody .statusMenu {
+    border: none;
+}
+.orderList .orderBody .statusMenu .done {
+    color: green;
+}
+.orderList .orderBody .statusMenu .pending {
+    color: red;
+}
+.orderList .orderBody .statusMenu .onGoing {
+    color: yellow;
+}
+.orderList .orderHeader .one, .orderList .orderBody .one{
+    width: 20%;
+}
+.orderList .orderHeader .two, .orderList .orderBody .two {
+    width: 25%;
+}
+.orderList .orderHeader .three, .orderList .orderBody .three {
+    width: 25%;
+}
+.orderList .orderHeader .four, .orderList .orderBody .four {
+    width: 20%;
+}
+.orderList .orderHeader .five, .orderList .orderBody .five {
+    width: 10%;
+    text-align: center;
+}

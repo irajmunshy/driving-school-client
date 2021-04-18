@@ -1,0 +1,10 @@
+.reviewSubmit {
+    background: #FDC400;
+    padding: 9px 35px;
+    color: #fff;
+    border: 1px solid #FDC400;
+}
+.reviewSubmit:hover {
+    background: none;
+    color: #FDC400;
+}

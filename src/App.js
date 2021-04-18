@@ -1,24 +1,64 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { createContext, useState } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Admin from "./components/Admin/Admin";
+import Customer from "./components/Customer/Customer";
+import Home from "./components/Home/Home";
+import Login from "./components/LoginPage/Login/Login";
+import PrivateRoute from './components/LoginPage/PrivateRoute/PrivateRoute';
+
+export const UserContext = createContext(); 
+export const ServiceContext = createContext();
+export const AdminContext = createContext();
 
 function App() {
+  const [loggedInUser, setLoggedInUser] = useState({
+    userName: '',
+    email: '',
+    error: '',
+    photo: '',
+    password: '',
+    confirmPassword: '',
+    isLoggedIn: false
+  });
+
+  const [service, setService] = useState({
+    id: ''
+  })
+
+  const [isAdmin, setAdmin] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
+    <AdminContext.Provider value={[isAdmin, setAdmin]}>
+    <ServiceContext.Provider value={[service, setService]}>
+        <Router>
+          <Switch>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <PrivateRoute path="/admin/:name">
+              {isAdmin &&
+                <Admin />
+              }
+            </PrivateRoute>
+            <PrivateRoute path="/customer/:name">
+              <Customer />
+            </PrivateRoute>
+            <Route exact path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
+    </ServiceContext.Provider>
+    </AdminContext.Provider>
+    </UserContext.Provider>
   );
 }
 

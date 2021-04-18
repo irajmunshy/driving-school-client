@@ -1,0 +1,12 @@
+.navbar-area {
+    background: #FDC400;
+}
+.navbar-area .nav-title a, .sidebar-area .nav-title a {
+    text-decoration: none;
+}
+.navbar-area .nav-title h3 {
+    color: #fff;
+}
+.sidebar-area .nav-title h3 {
+    color: #FDC400;
+}

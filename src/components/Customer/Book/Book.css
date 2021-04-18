@@ -1,0 +1,14 @@
+.book-details span, p {
+    font-weight: 600;
+}
+.btnPay {
+    color: #fff;
+    background: #FDC400;
+    padding: 9px 45px;
+    border: 1px solid #FDC400;
+    margin-left: 100px;
+}
+.btnPay:hover {
+    color: #FDC400;
+    background: none;
+}

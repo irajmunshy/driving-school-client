@@ -1,0 +1,14 @@
+.review-detail {
+    background: #fff;
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+.review-detail img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.review-detail svg {
+    color: #FFCB07;
+}

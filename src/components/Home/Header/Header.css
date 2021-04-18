@@ -1,0 +1,13 @@
+.school-info {
+    overflow-x: hidden;
+    background: url(../../../images/tt-promo-03.jpg);
+    padding: 20px 0;
+}
+.school-info h6 {
+    text-transform: uppercase;
+}
+.school-info svg {
+    color: #FDC400;
+    font-size: 40px;
+    margin-right: 20px;
+}

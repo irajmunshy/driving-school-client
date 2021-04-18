@@ -1,0 +1,17 @@
+.admin-from {
+    border-radius: 10px;
+}
+.admin-from label {
+    font-weight: 600;
+}
+.admin-from .submitAdmin {
+    background: #FDC400;
+    border: 1px solid #FDC400;
+    padding: 9px 35px;
+    color: #fff;
+    font-weight: 500;
+}
+.admin-from .submitAdmin:hover {
+    background: none;
+    color: #FDC400;
+}

@@ -1,0 +1,13 @@
+.sidebar-detail li, .logout {
+    color: #FDC400;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.sidebar-detail svg {
+    margin-right: 10px;
+    font-size: 18px;
+}
+.sidebar-detail span {
+    font-size: 18px;
+    font-weight: 500;
+}

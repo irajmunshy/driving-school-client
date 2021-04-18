@@ -1,0 +1,18 @@
+.service-from {
+    padding: 25px 25px 25px 25px; 
+    border-radius: 10px;
+}
+.service-from label {
+    font-weight: 600;
+}
+.submitBtn {
+    background: #FDC400;
+    padding: 9px 30px;
+    color: #fff;
+    display: block;
+    margin-left: auto;
+}
+.submitBtn:hover {
+    background: #FDC400;
+    color: #fff;
+}
