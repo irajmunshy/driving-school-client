@@ -1,7 +1,13 @@
-Project-Name: driving-school-client
+Title - Driving School.
 
-Site-Name: Driving School
+Site Live Link - [https://driving-school-client.web.app/].
 
-Site-OverView: This website is about driving school. Six components have been given on the homepage of the website. A separate route has been used for the admin and a separate route has been used for the user. It is kept in the payment method and the user will be able to give a review showing how many services the user has changed. Admin will be able to add more admins. The admin will show how many services are in the router, if the admin wants, he can use more services.
+OverView - 1. Mobile and Desktop Responsive on this web site.
+           2. Slider, Service, Review etc have been added to the Homepage. 
+           3. The user needs to login to go to the dashboard.
+           4. Users can book any service and make payment if login is available.
+           5. Users will be able to see the services they have booked as soon as they go to the dashboard.
+           6. Users can review any service they want and the review can be seen on the dynamic homepage.
+           7. The user has to login to go to the admin panel and the user can add any service and the user can add more than admin if he wants, he can delete any service if he                   wants, the user can see all the order list.
 
-Site Live Link: [https://driving-school-client.web.app/]
+Technology - HTML5, CSS3, Bootstrap5, JavaScript, React JS, Router, Firebase Authentication, Node JS, Express JS, mongo DB, Heroku.  
